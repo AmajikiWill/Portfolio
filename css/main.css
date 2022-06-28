@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #EEEEEE;
+    position: relative;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 111rem;
+    height: 9.3rem;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    color:#00ADB5;
+    transition: all 300ms;
+
+}
+
+.botao{
+    font-weight: 700;
+    padding: 1.2rem 2.4rem;
+    background-color: #00ADB5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    width: 18.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.botao:hover{
+    color:#EEEEEE;
+    box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.0);
+    transition: all 300ms;
+
+}
+
+.setinha:hover{
+    color:#EEEEEE;
+    box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.0);
+    transition: all 300ms;
+
+}
+
+header{
+    background-image: url(../assets/Rectangle\ 1\ \(1\).png);
+    height: 723px;
+
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 9.6rem;
+    font-weight: 700;
+    color: #00ADB5;
+    margin-bottom: -5rem;
+    position: relative;
+
+}
+
+h1::before{
+    content:"Olá, eu me chamo";
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: white;
+    top: -2rem;
+
+}
+
+h1::after{
+    content: "";
+    background-color: #00ADB5;
+    width: 7rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 7rem;
+    border-radius: 0.6rem;
+}
+
+h2,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #00ADB5;
+
+}
+
+h2{
+    font-size: 5.2rem;
+    margin: 0 auto;
+    width: 356px;
+
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+.cabecalho{
+    width: 64rem;
+    margin: 10.9rem 59.9rem 20.1rem 12.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 32rem;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #393E46;
+    font-size: 2.4rem;
+    width: 400;
+
+}
+
+.list__habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 3.6rem;
+
+}
+
+.habilidades{
+    display: flex;
+    gap: 1rem;
+    margin: 8rem 0;
+
+}
+
+.wallpapers{
+    height: 62rem;
+    background-image: url(../assets/Wallpapers.jpg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 6rem 3.2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.8rem;
+
+}
+
+.wallpapers__ajustes{
+    display: flex;
+    flex-direction: row;
+    gap: 6.4rem;
+
+}
+
+.img__effects{
+    border-radius: 1.6rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    position: relative;
+    z-index: 2;
+
+}
+
+.headers{
+    background-image: url(../assets/Headers.jpg);
+    height: 40rem;
+    padding: 3.2rem;
+
+}
+
+.social{
+    background-image: url(../assets/Social\ Media.jpg);
+    height: 72rem;
+
+}
+
+.cardapios{
+    height: 72rem;
+    background-image: url(../assets/Cardapios.jpg);
+
+}
+
+
+
+.lista__titulo, h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: white;
+
+}
+
+.escrever__mensagem{
+    height: 195px;
+    align-items: flex-start;
+    padding: 0.8rem 3.2rem;
+
+}
+
+.final{
+    background-image: url(../assets/img_final.png);
+    height: 164px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: end;
+    margin-top: 50rem;
+
+}
+
+.nome{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+h5{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+    line-height: 18px;
+    opacity: .6;
+    
+}
+
+.setinha{
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url(../assets/bi_arrow-up-square-fill.svg);
+    display: block;
+    position: fixed;
+    z-index: 10;
+    bottom: 16px;
+    right: 16px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+ span{
+    width: 50rem;
+    height: 50rem;
+    background-image: url(../assets/ic_round-design-services.svg);
+    position: absolute;
+    z-index: 0;
+    top: 60rem;
+    right: 0%;
+    opacity: .05;
+
+ }
